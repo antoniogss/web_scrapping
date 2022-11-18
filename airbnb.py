@@ -1,9 +1,9 @@
-# https://selenium-python.readthedocs.io/locating-elements.html
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from time import sleep
+
+# https://selenium-python.readthedocs.io/locating-elements.html
 
 chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
